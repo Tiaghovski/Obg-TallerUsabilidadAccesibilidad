@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Master Chef</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <link rel="icon" type="image/png" href="img/logo1.png"/>
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>        
+        <script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.js" type="text/javascript"></script>  
+    </head>
+    <body>   
+        <div class="container-fluid">
+            <header class="row">  
+                <article class="col-sm-12">
+                    <img src="img/jurado.jpg" class="img-rounded hidden-xs"><br><br>
+                </article>
+            </header>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+                <img src="img/logo5.png" width="150" height="100" class="hidden-sm hidden-xs">
+        </div>
+        <div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                 <li><a href="#Introduccion">Introducción</a></li>
+                <li><a href="#Pruebas">Pruebas</a></li>
+                <li><a href="#Participantes">Participantes</a></li>
+                <li><a href="#Ganador">Ganador</a></li>
+                <li><a href="#Premios">Premios</a></li>
+                <li><a href="#Posiciones">Posiciones</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+            <section id="Introduccion" class="row">
+                <article  class="col-sm-12">
+                    <h1>La gran final</h1><br>
+                   
+                    ¡Llegó el gran final de la tercera temporada de MasterChef Uruguay y tenemos una nueva maestra de la cocina!
+
+                    En un clima de gran tensión, los cuatro participantes que todavía estaban en carrera se enfrentaron uno contra uno, en dos semifinales determinadas por sorteo: Alicia vs. Robert y Paula vs. Gisela.
+
+                    Las dos ganadoras, Alicia y Gisela, pasaron a la gran final. El jurado les entregó sus chaquetas de chef, el atuendo que deberían vestir para cocinar en la última prueba. Los exparticipantes del ciclo ingresaron a la cocina de MasterChef Uruguay para apoyar a sus excompañeras, al igual que los familiares más cercanos de cada una de las finalistas, en uno de los momentos más emocionantes de la noche.
+
+                    Las finalistas tuvieron 120 minutos para sorprender al jurado con un menú pensado de forma integral y de presentación creativa compuesto por tres platos: entrada, plato principal y postre. Pese a los nervios y la presión de la instancia que estaban atravesando, ambas participantes tuvieron un gran desempeño en la última prueba de la competencia, lo que hizo que la decisión del jurado no fuera nada sencilla.
+
+                    Finalmente, Lucía, Sergio y Laurent dieron su veredicto y Alicia se convirtió en la nueva maestra de la cocina de nuestro país. La alegría y la emoción se apoderaron de la cocina de MasterChef Uruguay y el festejo de la ganadora con su familia y sus excompañeros fue inolvidable.<br><br>
+                     <img src="img/finalistas.jpg" class="img-rounded">
+                        
+                </article>
+            </section><br>
+            <section id="contenedor" >
+                    <div  id="carusel">
+                    <div class="row">
+                    <div class="col-sm-12">
+                     <div id="myCarousel" class="carousel" data-ride="carousel">                        
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img id="foto" src="img/slide-3.jpg" alt="1">
+                            </div>
+                            <div class="item">
+                                <img id="foto" src="img/slide2.jpg" alt="2">
+                            </div>
+                            <div class="item">
+                                <img id="foto" src="img/slide3.jpg" alt="2">
+                            </div>
+                         </div>
+                         <a class="left carousel-control" id="flech" href="#myCarousel" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" id="flecha" href="#myCarousel" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </section><br>
+            <section id="Pruebas" class="row">
+                <article class="col-sm-12">
+                    <h1>Pruebas</h1><br>
+                    <video id="idVideo" controls preload>
+                    <source src="img/video.mp4" type="video/mp4">                  
+                    </video><br><br>  
+                    <div id="botonCajaMisteriosa">
+                 <button type="button" id="btnA" 
+                    class="btn btn-dark col-lg-3 col-md-6 col-sm-6 col-xs-12"
+                    data-placement ="bottom"
+                    data-toggle="popover"
+                    data-content="En esta prueba tienen una caja que oculta los ingredientes o las cosas que puede haber en la caja. Con lo que tienen en la caja tienen que cocinar un plato con los ingredientes o las cosas que haya en la caja y sin poder ir al mercado, pueden usar todos los ingredientes que quieran ya sea 1 o todos.">
+                Caja misteriosa
+            </button>
+                      </div>
+                    <div id="botonPruebadeeliminacion">
+                 <button type="button" id="btnA" 
+                    class="btn btn-dark col-lg-3 col-md-6 col-sm-6 col-xs-12"
+                    data-placement ="bottom"
+                    data-toggle="popover"
+                    data-content="En esta prueba estarán los peores platos de la prueba anterior. Tienen que cocinar cualquier plato, pero ese plato tiene que tener un ingrediente principal elegido por los Chefs (en cada prueba de eliminación el ingrediente principal sera distinto) En esta prueba siempre hay solo 1 perdedor, que es el queda eliminado de MasterChef. Esta es la única prueba que esta en todos los episodios.">
+                Prueba de eliminación
+            </button>
+                      </div>
+                    <div id="botonPruebadeequipos">
+                 <button type="button" id="btnA" 
+                    class="btn btn-dark col-lg-3 col-md-6 col-sm-6 col-xs-12"
+                    data-placement ="bottom"
+                    data-toggle="popover"
+                    data-content="En esta prueba se divide a la mitad los concursantes que hayan (equipo azul y rojo), cada equipo tiene un capitán que es el que elige a sus compañeros de equipo y el que elige que platos hacer. Los capitanes casi siempre son los 2 ganadores de la prueba anterior. Siempre en esta prueba los jurados no son los Chefs principales sino otras personas y siempre son muchas personas.">
+                 Prueba por equipos
+            </button>
+                      </div>
+                    <div id="botonDesafioenduplas">
+                 <button type="button" id="btnA" 
+                    class="btn btn-dark col-lg-3 col-md-6 col-sm-6 col-xs-12"
+                    data-placement ="bottom"
+                    data-toggle="popover"
+                    data-content="En esta prueba se formaran equipos de a 2 participantes. Tienen que hacer un plato elegido por cada equipo y hacerlo. Mientras uno cocina el otro se queda a un costado y le puede ayudar habladle y dolando consejos o advertirle algo pero no le puede ayudar cocinando o tocando algo. Después de determinado tiempo rotan y el que cocinaba, se queda a un costado hablándole y el otro cocina. Siempre rotan más de 1 vez.">
+               Desafío en duplas
+            </button>
+                    </div>       
+     <div class="list-group col-sm-12 hidden-xs">
+        <a class="list-group-item disabled">Equipos</a>
+        <a class="list-group-item">Diego González</a>
+        <a class="list-group-item">Sergio Puglia</a>
+        <a class="list-group-item">Lucía Soria</a>
+        <a class="list-group-item">Laurent Lainé</a>
+    </div>
+                    
+                  
+                
+
+                </article>
+            </section><br>
+            <section id="Participantes" class="row">
+                <article class="col-sm-12">
+                    <h1>Participantes</h1><br>
+                    <article class="col-sm-6 col-xs-12">
+                    <dl>
+                        <img src="img/Alicia.jpg" class="img-circle img-responsive">
+                        <dt>Alicia<dt>
+                            <dd>Edad: 51</dd>
+                            <dd>Procedencia: Salto</dd>
+                         <dd> Profesión: estudiante de diseño integrado</dd>
+                          <dd> Plato estrella: risotto</dd><br>
+                          <img src="img/robert.jpg" class="img-circle img-responsive">
+                    <dt>Robert </dt>
+                    <dd>Edad: 38</dd>
+                    <dd>Procedencia: Maldonado</dd>
+                    <dd>Profesión: jardinero</dd>
+                    <dd>Platos estrella: corvina negra a la pizza y huevas a la vinagreta</dd><br>
+                    </dl>
+                    </article>
+                    <article class="col-sm-6 col-xs-12">
+                        <dl>
+                            <img src="img/paula.jpg" class="img-circle img-responsive">
+                    <dt>Paula</dt>
+                    <dd>Edad: 42</dd>
+                    <dd>Procedencia: Buceo, Montevideo</dd>
+                    <dd>Platos estrella: solomillo a la plancha con rúcula y patatas al romero, y galletas de avena y chocolate.</dd><br>
+                     <img src="img/Gisela.jpg" class="img-circle img-responsive">
+                    <dt>Gisela</dt>
+                    <dd>Edad: 65</dd>
+                    <dd>Procedencia: Punta Gorda, Montevideo</dd>
+                    <dd>Profesión: ama de casa</dd>
+                    <dd>Plato estrella: salmón con salsa de vino blanco</dd>
+                    </dl>
+                </article>
+            </section><br>
+            <section id="Ganador" class="row">
+                <article class="col-sm-12">
+                    <h1>El ganador</h1> <br>
+                    <img src="img/ganadora.jpg" class="img-rounded"><br><br>
+                    Ha culminando la tercer generación de MasterChef Uruguay, el formato televisivo de cocina que emite el canal 10 los días lunes a partir de las 21 horas.La salteña Alicia Patella fue galardonada con el título de mejor cocinera amateur.
+
+                    Un estallido de papelitos plateados cayó en la cocina de MasterChef apenas Sergio Puglia mostró la tarjeta con el nombre de la ganadora de la tercera temporada. Y Alicia Patella, con su sonrisa amplia, no supo cómo reaccionar. Esta vez no hubo un grito estridente: bastó con mostrar un papel para anunciar a la nueva maestra de la cocina, que se impuso en una final reñida a Gisela Meissner. Detalles de la última prueba hicieron que Puglia, Lucía Soria y Laurent Lainé coronaran a la salteña, que le dio su segunda consagración al interior en este show, después de la de Nilson Viazzo.
+
+                    Familiares, amigos y público en general saludaron la victoria de Alicia entre los cuatro finalistas del popular evento televisivo.<br><br>
+                    
+                    <button type="button" class="btn btn-default" id="myBtn" data-toggle="modal" data-target="#modalPorDefecto">Más Información</button>
+            
+            <div id="modalPorDefecto" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModal-label">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                       
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModal-label">Más información acerca de la ganadora</h4>
+                        </div>
+                       
+                        <div class="modal-body">
+                            <p id="modal">Tiene 51 años y es de Salto. Tiene una hija de 26 años y actualmente se encuentra en pareja.
+                            Se define como una mujer inquieta y dice ser buena alumna en todo aquello que le interesa.
+                            Hizo Ingeniería de Sistemas, Administración de Empresas Agropecuarias y actualmente hace Lic. en Diseño Integrado.
+                            Se presentó a MasterChef Uruguay por el desafío; gustaría emprender en la cocina y cree que la competencia puede ser una buena puerta de entrada.
+                            Se define como una persona creativa, locuaz y buena compañera. Dice ser analítica y tener poca paciencia.
+                            Le gusta la vida al aire libre y la comida sana. Su hobby es el arte floral y ama todo lo relativo al diseño.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                            </div>
+                    </div>
+                </div>
+            </div><br><br>
+                    
+                    <table class="table table-bordered">
+                        <tr><td>Chefs de referencia</td><td>No tiene</td></tr>
+                        <tr><td>Plato estrella</td><td>Risotto</td></tr>
+                    </table>
+                </article>
+            </section><br>
+            <section id="Premios" class="row">
+                <article class="col-sm-12">
+                    <h1>Premios</h1><br>
+
+                Además del trofeo de MasterChef, Alicia ganó: $U 250.000 en efectivo, un curso de repostería o cocina profesional en el Instituto Crandon Gastronómico; un viaje a Girona, España, para tomar clases en El Celler de Can Roca (restaurante galardonado con tres estrellas Michelín); y un auto 0 km.
+
+                Gisela, por su parte, además del reconocimiento del público, el jurado y la audiencia, se llevó una cocina completa con equipamiento Bosch.
+
+                </article>
+            </section><br>
+            <section id="Posiciones" class="row">
+                <article class="col-sm-12">
+                    <h1>Posiciones</h1><br>
+                    <table class="table table-bordered">
+                        <tr><th>Nombre</th><th>Edad</th><th>Ocupación</th><th>Estado</th><th>Días</th></tr>
+                        <tr><td>Alicia Patella</td><td>51</td><td>Estudiante de diseño gráfico</td><td>Campeona</td><td rowspan="4">92 Días</td>
+                        <tr><td>Gisela Meissner</td><td>65</td><td>Ama de casa</td><td>Sub Campeona</td>
+                        <tr><td>Robert Díaz</td><td>38</td><td>Jardinero</td><td rowspan="2">Semifinalista</td>
+                        <tr><td>Paula Estela</td><td>42</td><td>Ama de casa</td>
+                    </table>
+                </article>
+            </section>  
+        <script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('[data-toggle="popover"]').popover(); 
+            })
+        </script>
+    </body>
+</html>
